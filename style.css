@@ -43,3 +43,34 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Animasi getaran pada header */
+@keyframes vibrate {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(0); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+
+header h1 {
+    animation: vibrate 0.5s ease-in-out;
+}
+/* Efek transisi pada link navigasi */
+nav a {
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #777;
+    transform: scale(1.1);
+}
+/* Animasi fade-in */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+main {
+    animation: fadeIn 2s ease-in;
+}
