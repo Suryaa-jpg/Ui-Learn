@@ -18,4 +18,5 @@ Website ini dirancang untuk memberikan tampilan dan struktur dasar dengan halama
 ## Instalasi
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/repo.git
+   git clone 
+https://suryaa-jpg.github.io/Ui-Learn/
